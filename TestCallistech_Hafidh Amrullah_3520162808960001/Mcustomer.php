@@ -16,11 +16,6 @@ var $tabel='customer';
 			;");
 	}
 
-/*	public function hitungumur()
-	{
-		$hasil=2017-$this->makanan;
-		return $hasil;
-	}	*/
 	public function cetakid()
 	{
 		echo "customer : ".$this->customer_no." customer_no ".$this->name." name ".$this->address." address ".$this->phone."</br>";
